@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "cb5fa031-fae7-4be7-8b34-c99e29e8a7c7",
+		"name": "welbexTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24126867"
+	},
+	"item": [
+		{
+			"name": "post",
+			"item": [
+				{
+					"name": "post",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/post/filter?name=welbex&distance=5&count=10&page=1&count_type=2&distance_type=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"post",
+								"filter"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "welbex",
+									"description": "char"
+								},
+								{
+									"key": "distance",
+									"value": "5",
+									"description": "number"
+								},
+								{
+									"key": "count",
+									"value": "10",
+									"description": "number"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"description": "number"
+								},
+								{
+									"key": "count_type",
+									"value": "2",
+									"description": "0 = less, 1 = equal, 2 = more "
+								},
+								{
+									"key": "distance_type",
+									"value": "2",
+									"description": "0 = less, 1 = equal, 2 = more"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"welbex\",\r\n    \"distance\": 45,\r\n    \"count\": 20\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"post"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
