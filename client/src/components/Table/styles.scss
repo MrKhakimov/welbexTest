@@ -1,0 +1,42 @@
+.table-wrapper {
+    position: relative;
+    min-height: 230px;
+    border: 1px solid #dddddd;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table-center-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table-row {
+    display: flex;
+    & > * {
+        flex: 0 1 25%;
+    }
+}
+
+.table-td, .table-th {
+    padding: 8px;
+    border: 1px solid #dddddd;
+}
+.table-th {
+    font-weight: 500;
+}

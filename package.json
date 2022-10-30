@@ -1,0 +1,19 @@
+{
+  "name": "welbextest",
+  "version": "1.0.0",
+  "description": "welbex test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrKhakimov/welbexTest.git"
+  },
+  "author": "Khakimov Khikmatullokh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrKhakimov/welbexTest/issues"
+  },
+  "homepage": "https://github.com/MrKhakimov/welbexTest#readme"
+}
