@@ -1,7 +1,6 @@
 # welbexTest
-the test project for welbex
 
-На папке client содержит REACT приложение
+# На папке client содержит REACT приложение
 чтобы запустить приложение скачайте приложение установите зависимости с командой 
 
 # npm install или yarn
@@ -11,7 +10,7 @@ the test project for welbex
 
 есть путь к url для сервера там по дефолту указан localhost:8080/api
 
-#SERVER - на папке serv
+# SERVER - на папке serv
 
 чтобы запустить сервер установите пакеты по команде
 # npm install
